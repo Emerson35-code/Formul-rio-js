@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+
+</head>
+<body>
+    <h1>Fomulário</h1>
+    <form id="form">
+        <label for="name">Nome</label>
+        <input type="text" id="name">
+
+        <label for="email">Email</label>
+        <input type="text" id="email">
+
+        <label for="password">Senha</label>
+        <input type="text" id="password">
+
+        <label for="job">Situação de Trabalho</label>
+        <select name="job" id="job">
+            <option value="">Está buscando emprego?</option>
+            <option value="yes">Sim</option>
+            <option value="no">Não</option>
+        </select>
+
+        <label for="messege">Mensagem</label>
+        <textarea name="messege" id="messege"></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>

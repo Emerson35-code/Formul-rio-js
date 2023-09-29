@@ -1,0 +1,49 @@
+*{
+    font-family:  Helvetica;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1rem;
+    color: #1e5761;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px ;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #5ad6ec;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: #1e5761;
+    transition: 0.5s;
+}
